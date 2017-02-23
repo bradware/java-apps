@@ -10,25 +10,20 @@ import javax.swing.*;
  */
 
 public class CoinPanelMain {
-	
-	/**
-	 * Sets up frame to hold panel1 to run the GUI
-	 * @param args
-	 */
-	
-	public static void main(String [] args){
-		JFrame frame = new JFrame("Coin!");
-		frame.setDefaultCloseOperation(frame.EXIT_ON_CLOSE);
-		CoinPanel panel1 = new CoinPanel();
-		frame.getContentPane().add(panel1);
-		frame.pack();
-		frame.setVisible(true);
-		
-		
-		
-		
-		
-	}
-	
+    
+    /**
+     * Sets up frame to hold panel1 to run the GUI
+     * @param args
+     */
+    
+    public static void main(String [] args){
+        JFrame frame = new JFrame("Coin!");
+        frame.setDefaultCloseOperation(frame.EXIT_ON_CLOSE);
+        CoinPanel panel1 = new CoinPanel();
+        frame.getContentPane().add(panel1);
+        frame.pack();
+        frame.setVisible(true);
+    }
+    
 
 }
